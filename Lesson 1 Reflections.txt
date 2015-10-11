@@ -1,0 +1,49 @@
+Easy identification of changes between versions of a file allows faster identification of problems
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By concentrating only on the changes between the two versions of the file
+    it was easier to identify the issue, rather than have to look through the
+    entire file looking for the problem. The bug was a small typo, and would
+    have beeen easy to miss in looking at the entire program.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Yes, by having multiple versions available and being able to return easily
+    to a known-working version if needed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual choice of when to create a commit allows more intelligence of the
+    development cycle to be applied, committing only when a change is deemed
+    complete. On the other hand automatic versioning ensures there is a prior
+    version to return to in case of data corruption or the like, minimizing
+    the loss of work when facing such a catastrophic event.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It depends on the focus of the system. Git is geared to software
+    development, where an integrated change might involve changes to multiple
+    source files, whereas Google Docs is geared towards documents that are
+    likely independent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides a record of all commits in the repository (collection of files maintained together).
+    git diff provides the differences encountered between specified commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having easy access to a prior version known to work allows confidence to
+    make changes that might break things, since it would be easy to get back
+    to something that works
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Mobile app development for Android
