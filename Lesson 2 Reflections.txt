@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	Structures are created for git to track the history of the files included in the repository. Without the initialization, git does not have the necessary structure to support its functionality
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area contains related files to be included in a single commit in the future. It allows the user to select a set of multiple files that contain related changes, differentiating them from other files
+	The repository, on the other hand, contains only those files that have been commited previously, and the current directory contains all files the user works with, including perhaps some scratch files
+	
