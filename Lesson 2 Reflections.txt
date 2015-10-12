@@ -35,3 +35,13 @@ How do the diagrams help you visualize the branch structure?
 	By using a diagram we can represent graphically the relationship between
 	the commits and branches in the projects, easily detect reachability between
 	commits, as well as unreachable commits if such exist.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	Merging two branches incorporates the changes in both branches into a new
+	commit that contains all changes.
+
+	The representation in the diagram shows that parallel changes take place
+	and the changes that go into each branch until they merge.
+		
