@@ -44,4 +44,13 @@ the diagram the way we do?
 
 	The representation in the diagram shows that parallel changes take place
 	and the changes that go into each branch until they merge.
-		
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+	Git's automatic merging automates the easy part of the analysis, where the
+	comparison engine can see changes that are likely not to interfere with
+	each other and incorporate both in the merged version. However, it could
+	create errors in the code where changes applied in different parts of the
+	code could interfere with each other.
+	
