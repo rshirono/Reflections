@@ -29,3 +29,9 @@ organized? How would branches help?
 	Branches help in isolating changes to the project such that fixes can easily
 	be applied to the main working code while exploring the implemenation of new
 	features without either work undoing the other
+
+How do the diagrams help you visualize the branch structure?
+
+	By using a diagram we can represent graphically the relationship between
+	the commits and branches in the projects, easily detect reachability between
+	commits, as well as unreachable commits if such exist.
