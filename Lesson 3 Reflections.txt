@@ -1,1 +1,8 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+    A remote repository helps when working with a team, so all team members can work simultaneously
+    on different parts of the project without interfering with each other.
+    
+    A remote repository also helps when working from different computers, and also could be considered
+    an off-site backup medium.
+    
